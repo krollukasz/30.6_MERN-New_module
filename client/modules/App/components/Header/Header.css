@@ -33,9 +33,9 @@
   float: right;
 }
 
-.language-switcher {
+/* .language-switcher {
   background: rgba(0, 0, 0, 0.1);
-}
+} */
 
 .language-switcher ul {
   list-style: none;
@@ -58,6 +58,30 @@
 
 .selected {
   border-bottom: 1px solid #fff;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.menu li {
+  display: inline-block;
+  text-decoration: none;
+  margin: 10px;
+  padding: 5px;
+  cursor: pointer;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
 }
 
 @media (max-width: 767px){
