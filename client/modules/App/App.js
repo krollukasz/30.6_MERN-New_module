@@ -5,6 +5,11 @@ import { connect } from 'react-redux';
 // Import Style
 import styles from './App.css';
 
+// Import FontAwsome
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faThumbsUp, faThumbsDown } from '@fortawesome/free-solid-svg-icons';
+library.add(faThumbsUp, faThumbsDown);
+
 // Import Components
 import Helmet from 'react-helmet';
 import Header from './components/Header/Header';
